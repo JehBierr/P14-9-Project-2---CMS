@@ -1,0 +1,4 @@
+ID         Name                      Programme                      Mark      
+102        ABBY                      COMPUTER SCIENCES              24.40     
+103        BETTY GOH                 AEROSPACE ENGINEERING          56.70     
+101        JAVIER SOH                COMPUTER ENGINEERING           92.20     
