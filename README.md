@@ -13,7 +13,7 @@
 - Maximum configurable limits for records and command input
 - Help and usage guidance
 
-## Data Structure
+## 🏗️ Data Structure
 typedef struct {
     int id;
     char name[50];
@@ -21,7 +21,7 @@ typedef struct {
     float mark;
 } Student;
 
-## Usage
+## ✨ Usage
 1. Open the datavase: OPEN <filename>
 2. Show records: SHOW ALL
 3. Insert a new record: INSERT ID Name Programme Mark
@@ -32,7 +32,7 @@ typedef struct {
 8. Display help: HELP
 9. Exit program: EXIT
 
-## Limits
+## 🔧 Limits
 - Maximum student:1100
 - Maximum inpuit line length: 256 characters
 
