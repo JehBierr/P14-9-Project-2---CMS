@@ -37,7 +37,7 @@ typedef struct {
 - Maximum inpuit line length: 256 characters
 
 ## compilation
-gcc main.c database.c operations.c display.c -o cms
+gcc main.c database/database.c operations/operations.c display/display.c -o CMS.exe
 
 ## Running the program
 ./cms
