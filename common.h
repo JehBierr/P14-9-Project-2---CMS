@@ -8,6 +8,7 @@
 #define MAX_STUDENTS 100
 #define MAX_LINE 256
 #define FILENAME "P14_9-CMS.txt"
+#define exitCode "***"
 
 #define RESET   "\033[0m"
 #define BOLD    "\033[1m"

@@ -1,2 +1,1 @@
 ID         Name                      Programme                      Mark      
-202        BETTY GOH                 AEROSPACE ENGINEERING          22.50     

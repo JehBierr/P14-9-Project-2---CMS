@@ -3,8 +3,8 @@
 #include <string.h>
 
 
-void openDatabase() {
-    FILE *file = fopen(FILENAME, "r");
+/*void openDatabase(const char *filename) {
+    FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("No existing database found.\n");
         return;
@@ -76,17 +76,16 @@ void openDatabase() {
     }
     
     fclose(file);
-    printf(GREEN "Database loaded from \"%s\" successfully with %d records.\n" RESET, FILENAME, studentCount);
+    printf(GREEN "\nDatabase loaded from \"%s\" successfully with %d records.\n" RESET, filename, studentCount);
 }
-
-void saveDatabase() {
-    FILE *file = fopen(FILENAME, "w");
+*/
+void saveDatabase(const char *filename) {
+    FILE *file = fopen(filename, "w");
     if (file == NULL) {
-        printf(RED "Error opening file for writing.\n" RESET);
+        printf(RED "Error opening file \"%s\" for writing.\n" RESET, filename);
         return;
     }
 
-    // Use fixed widths in the output to maintain the file format
     fprintf(file, "%-10s %-25s %-30s %-10s\n", "ID", "Name", "Programme", "Mark");
 
     for (int i = 0; i < studentCount; i++) {
@@ -98,5 +97,5 @@ void saveDatabase() {
     }
 
     fclose(file);
-    printf(GREEN"Database saved to \"%s\" successfully with %d records.\n" RESET, FILENAME, studentCount);
+    printf(GREEN "Database saved to \"%s\" successfully with %d records.\n" RESET, filename, studentCount);
 }
