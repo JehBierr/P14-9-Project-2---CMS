@@ -40,9 +40,9 @@ typedef struct {
 gcc main.c database/database.c operations/operations.c display/display.c -o CMS.exe
 
 ## 🟢 Running the program
-### Integrated terminal
+### </>>_ Integrated terminal
 ./cms
-### Open exe
+### 🔳⚙️ Open exe
 double click CMS.exe
 
 ## 📝 File Format
