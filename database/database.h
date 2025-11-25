@@ -3,7 +3,7 @@
 
 #include "../common.h"
 
-//void openDatabase();
+void openDatabase();
 void saveDatabase();
 
 #endif

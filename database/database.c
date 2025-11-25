@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-/*void openDatabase(const char *filename) {
+void openDatabase(const char *filename) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("No existing database found.\n");
@@ -78,7 +78,7 @@
     fclose(file);
     printf(GREEN "\nDatabase loaded from \"%s\" successfully with %d records.\n" RESET, filename, studentCount);
 }
-*/
+
 void saveDatabase(const char *filename) {
     FILE *file = fopen(filename, "w");
     if (file == NULL) {

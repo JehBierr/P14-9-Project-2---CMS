@@ -23,7 +23,7 @@ void openFile() {
     }
 
     // Collect filenames
-    char availableFiles[100][256]; // up to 100 files
+    char availableFiles[100][256]; 
     int numFiles = 0;
 
     do {
@@ -50,13 +50,13 @@ void openFile() {
     }
     else if (fileChoice < 1 || fileChoice > numFiles) {
         printf(RED "Invalid choice.\n" RESET);
-        startupPrompt();
+        openFile();
     }
 
 
 
     strcpy(currentFilename, availableFiles[fileChoice - 1]);
-    openDatabase(currentFilename);   // your existing function
+    openDatabase(currentFilename);   
     fileOpen = 1;
     printf(GREEN "Opened database: %s\n" RESET, currentFilename);
 }
@@ -109,10 +109,7 @@ int main() {
             updateRecord(command + 7); 
         } else if (strcmp(command, "SORT BY") == 0) {
             sortBy();
-        }  
-
-
-        else if (strcmp(command, "HELP") == 0) {
+        } else if (strcmp(command, "HELP") == 0) {
             printf("Available commands:\n");
             printf("OPEN - Open the database file\n");
             printf("SAVE - Save the database file\n");

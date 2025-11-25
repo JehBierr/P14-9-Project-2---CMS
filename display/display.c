@@ -34,7 +34,6 @@ printf(BLUE BOLD "\nAll Student Records:\n" RESET);
     }
 }
 
-
 void showSummary() {
     if (studentCount == 0) {
         printf(RED "No records to summarize.\n" RESET);
@@ -83,7 +82,7 @@ void sortBy() {
     for (int i = 0; field[i]; i++) field[i] = toupper(field[i]);
     for (int i = 0; order[i]; i++) order[i] = toupper(order[i]);
 
-    // sorting logic is here guys
+    // sorting logic is here 
     for (int i = 0; i < studentCount - 1; i++) {
         for (int j = i + 1; j < studentCount; j++) {
             int cmp = 0;
