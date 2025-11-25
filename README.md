@@ -1,10 +1,10 @@
-# INF1002, P14_9
-- Liew Hui Zhong 2502222
+# 👨‍💻 INF1002, P14_9
 - Charissa Koh Yi En 2501810
-- Ong Si Kai 2501225
 - Javier Soh Jie En 2500119
+- Liew Hui Zhong 2502222
+- Ong Si Kai 2501225
 
-## Course Management System
+## 🗂️ Course Management System
 - Add, update, query, and delete student records
 - File operations (open, save, show all)
 - Commands for sorting and statistics
@@ -32,15 +32,18 @@ typedef struct {
 8. Display help: HELP
 9. Exit program: EXIT
 
-## 🔧 Limits
-- Maximum student:1100
+## ⚠️ Limits
+- Maximum student: 100
 - Maximum inpuit line length: 256 characters
 
-## compilation
+## 🛠️ compilation
 gcc main.c database/database.c operations/operations.c display/display.c -o CMS.exe
 
-## Running the program
+## 🟢 Running the program
+### Integrated terminal
 ./cms
+### Open exe
+double click CMS.exe
 
-## File Format
+## 📝 File Format
 Student data files must use tabular text with fields: ID, Name, Programme, Mark.
