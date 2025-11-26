@@ -14,12 +14,10 @@
 - Help and usage guidance
 
 ## 🏗️ Data Structure
-typedef struct {
-    int id;
-    char name[50];
-    char programme[50];
-    float mark;
-} Student;
+- id: Holds the unique student identifier as an integer.
+- name: Stores the student's name as a string with a maximum length of 50 characters.
+- programme: Contains the academic programme or course, also as a string up to 50 characters.
+- mark: Records the student's mark as a floating-point number.
 
 ## ✨ Usage
 1. Open the datavase: OPEN <filename>
