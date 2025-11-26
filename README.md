@@ -22,10 +22,10 @@
 ## ✨ Usage
 1. Open the datavase: OPEN <filename>
 2. Show records: SHOW ALL
-3. Insert a new record: INSERT ID Name Programme Mark
-4. Update a record: UPDATE ID [Name/Programme/Mark] <new_value>
-5. Delete a record: DELETE ID
-6. Query a record: QUERY ID
+3. Insert a new record: INSERT,<ID>,<Name>,<Programme>,<Mark>
+4. Update a record: UPDATE <ID>[Name/Programme/Mark/All] <new_value>
+5. Delete a record: DELETE <ID>
+6. Query a record: QUERY <ID>
 7. Save database: SAVE
 8. Display help: HELP
 9. Exit program: EXIT
@@ -35,13 +35,13 @@
 - Maximum inpuit line length: 256 characters
 
 ## 🛠️ compilation
-gcc main.c database/database.c operations/operations.c display/display.c -o CMS.exe
+gcc main.c database/database.c operations/operations.c display/display.c -o main.exe
 
 ## 🟢 Running the program
 ### </>>_ Integrated terminal
-./cms
+./main.exe
 ### 🔳⚙️ Open exe
-double click CMS.exe
+double click main.exe
 
 ## 📝 File Format
 Student data files must use tabular text with fields: ID, Name, Programme, Mark.
