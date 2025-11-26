@@ -22,13 +22,14 @@
 ## ✨ Usage
 1. Open the datavase: OPEN <filename>
 2. Show records: SHOW ALL
-3. Insert a new record: INSERT,<ID>,<Name>,<Programme>,<Mark>
-4. Update a record: UPDATE <ID>[Name/Programme/Mark/All] <new_value>
-5. Delete a record: DELETE <ID>
-6. Query a record: QUERY <ID>
-7. Save database: SAVE
-8. Display help: HELP
-9. Exit program: EXIT
+3. Insert a new record: INSERT [ID],[Name],[Programme],[Mark]
+4. Update a record: UPDATE [ID]
+   [Name/Programme/Mark/All] <new_value>
+6. Delete a record: DELETE [ID]
+8. Query a record: QUERY [ID]
+9. Save database: SAVE
+10. Display help: HELP
+11. Exit program: EXIT
 
 ## ⚠️ Limits
 - Maximum student: 100
